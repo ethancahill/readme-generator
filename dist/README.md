@@ -1,9 +1,9 @@
-# Ethan
-  
+# Readme Generator
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   
   ## Description
 
-  Etahan
+  This is a project that generates a markdown readme
 
 
   ## Table of Contents
@@ -17,29 +17,29 @@
 
   ## Instructions
 
-  dsfsddsgfdg
+  Install NPM as well as Inquirer
 
 
   ## Usage
 
-  fgdfgdfsgbdfgbsdfbjshdgkjshgdflkghjs
+  Use to generate a readme generator
 
 
   ## Contributing
 
-  ffsasdaoj	sdfasfd
+  Feel free to contribute
 
 
   ## Tests
 
-  fdsafsadfasdfsaf
+  No tests created
 
 
   ## License
 
 
-  No licenses were utilized
-  
+  This project utilizes the Mozilla Public License 2.0 (MPL-2.0)
+  [Mozilla](https://opensource.org/licenses/MPL-2.0)
 
 
   ## Questions
