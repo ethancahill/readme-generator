@@ -1,17 +1,36 @@
 // TODO: Include packages needed for this application
 const fs = require('fs')
 const { promptInput } = require('./questions')
+const { generateMarkdown } = require('./utils/generateMarkdown')
 
-// Prompts user response
-
-promptInput()
-.then(console.log(promptInput))
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+const writeFile = fileContent => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', fileContent, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+
+            resolve({
+                ok: true,
+                message: 'File created!'
+            });
+        });
+    });
+}
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+    promptInput()
+    .then(userData => {
+        return generateMarkdown(userData);
+    })
+    .then(pageReadme => {
+        return writeFile(pageReadme)
+    })
+}
 
 // Function call to initialize app
 init();

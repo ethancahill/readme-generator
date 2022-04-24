@@ -56,7 +56,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Provide contribution guidlines.',
+        message: 'Provide contribution guidelines.',
         validate: contributionInput => {
             if (contributionInput) {
                 return true;
@@ -81,8 +81,8 @@ const questions = [
         }
     },
     {
-        type: 'checkbox',
-        name: 'licences',
+        type: 'rawlist',
+        name: 'license',
         choices: ['MIT', 'Apache', 'MPL', 'CC-BY'],
         message: 'Choose license used',
     },
@@ -114,6 +114,9 @@ const questions = [
     }
 ];
 
-const promptInput = () => {inquirer.prompt(questions)}
+const promptInput = () => {
+    return inquirer
+    .prompt(questions)
+}
 
-module.exports = { promptInput };
+module.exports = { promptInput }
