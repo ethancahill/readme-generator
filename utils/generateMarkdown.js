@@ -120,9 +120,9 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  GitHub: [${username}](github.com/${username})
+GitHub: [${username}](github.com/${username})
 
-  Email: ${email}
+Email: ${email}
 `;
 }
 

@@ -1,9 +1,9 @@
-# Readme Generator
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# fgdfg
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
 
-  This is a project that generates a markdown readme
+  gfdgdf
 
 
   ## Table of Contents
@@ -21,35 +21,33 @@
 
   ## Instructions
 
-  Install NPM as well as Inquirer
+  gdf
 
 
   ## Usage
 
-  Use to generate a readme generator
+  fdg
 
 
   ## Contributing
 
-  Feel free to contribute
+  fgd
 
 
   ## Tests
 
-  No tests created
+  gfd
 
 
   ## License
 
 
-  This project utilizes the Mozilla Public License 2.0 (MPL-2.0)
-  [Mozilla](https://opensource.org/licenses/MPL-2.0)
+  This project utilizes the MIT License
+  [MIT](https://opensource.org/licenses/MIT)
 
 
   ## Questions
 
-  GitHub: [ethancahill](github.com/ethancahill)
+  GitHub: <a href="github.com/ethancahill" target="_blank">ethancahill</a>
 
   Email: andersmith29@gmail.com
- 
-
