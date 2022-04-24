@@ -25,11 +25,45 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  switch (license) {
+    case 'Eclipse':
+      return '[Eclipse](https://opensource.org/licenses/EPL-1.0)';
+    case 'Apache 2.0':
+      return '[Apache 2.0](https://opensource.org/licenses/Apache-2.0)';
+    case 'IBM':
+      return '[IBM](https://opensource.org/licenses/IPL-1.0)';
+    case 'MIT':
+      return '[MIT](https://opensource.org/licenses/MIT)';
+    case 'Mozilla':
+      return '[Mozilla](https://opensource.org/licenses/MPL-2.0)';
+    case 'Pearl':
+      return '[Pearl](https://opensource.org/licenses/Artistic-2.0)';
+    case 'None':
+      return '';
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) {
+  switch (license) {
+    case 'Eclipse':
+      return 'This project utilizes the Eclipse Public License 1.0 (EPL-1.0)';
+    case 'Apache 2.0':
+      return 'This project utilizes the Apache License, Version 2.0';
+    case 'IBM':
+      return 'This project utilizes the IBM License Version 1.0 (IPL-1.0)';
+    case 'MIT':
+      return 'This project utilizes the MIT License';
+    case 'Mozilla':
+      return 'This project utilizes the Mozilla Public License 2.0 (MPL-2.0)';
+    case 'Pearl':
+      return 'This project utilizes the Artistic License 2.0';
+    case 'None':
+      return 'No licenses were utilized';
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -75,17 +109,22 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${renderLicenseBadge(license)}
+
+  ${renderLicenseSection(license)}
+  ${renderLicenseLink(license)}
 
 
   ## Questions
 
-  ${username}
+    GitHub:
+  [${username}](github.com/${username})
+
+    Email:
   ${email}
  
 
 `
-;
+    ;
 }
 
 module.exports = { generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection }
