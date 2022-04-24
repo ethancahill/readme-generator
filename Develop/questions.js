@@ -83,7 +83,7 @@ const questions = [
     {
         type: 'rawlist',
         name: 'license',
-        choices: ['MIT', 'Apache', 'MPL', 'CC-BY'],
+        choices: ['Eclipse', 'Apache 2.0', 'IBM', 'MIT', 'Mozilla', 'Pearl', 'None'],
         message: 'Choose license used',
     },
     {
