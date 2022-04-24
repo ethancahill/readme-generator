@@ -15,7 +15,7 @@
   [Go to Contributing](#contributing)
 
   [Go to Tests](#tests)
-  
+
   [Go to Questions](#questions)
 
 
@@ -48,10 +48,10 @@
 
   ## Questions
 
-    GitHub:
-  [ethancahill](github.com/ethancahill)
+    GitHub
+[ethancahill](github.com/ethancahill)
 
-    Email:
+    Email
   andersmith29@gmail.com
  
 
