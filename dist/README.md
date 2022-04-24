@@ -48,10 +48,8 @@
 
   ## Questions
 
-    GitHub
-[ethancahill](github.com/ethancahill)
+  GitHub: [ethancahill](github.com/ethancahill)
 
-    Email
-  andersmith29@gmail.com
+  Email: andersmith29@gmail.com
  
 
