@@ -1,9 +1,9 @@
-# fgdfg
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Readme Generator
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   
   ## Description
 
-  gfdgdf
+  It is really cool
 
 
   ## Table of Contents
@@ -21,33 +21,33 @@
 
   ## Instructions
 
-  gdf
+  Install NPM dependancies: Inquirer
 
 
   ## Usage
 
-  fdg
+  Use wisely
 
 
   ## Contributing
 
-  fgd
+  Feel free to contribute
 
 
   ## Tests
 
-  gfd
+  No tests at this time
 
 
   ## License
 
 
-  This project utilizes the MIT License
-  [MIT](https://opensource.org/licenses/MIT)
+  This project utilizes the Mozilla Public License 2.0 (MPL-2.0)
+  [Mozilla](https://opensource.org/licenses/MPL-2.0)
 
 
   ## Questions
 
-  GitHub: <a href="github.com/ethancahill" target="_blank">ethancahill</a>
+GitHub: [ethancahill](github.com/ethancahill)
 
-  Email: andersmith29@gmail.com
+Email: andersmith29@gmail.com
